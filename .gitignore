@@ -1,0 +1,11 @@
+# Node.js
+node_modules/
+
+# Output of Tailwind CSS
+styles/output.css
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
