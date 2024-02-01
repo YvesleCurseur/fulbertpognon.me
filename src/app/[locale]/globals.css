@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+@layer base {
+  html.dark {
+    /* Styles pour le thème sombre */
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+    color: rgb(var(--foreground-rgb));
+    background-color: rgb(10, 10, 10);
+  }
+
+  html.light {
+    /* Styles pour le thème clair */
+    --foreground-rgb: 0, 0, 0;
+    --background-start-rgb: 214, 219, 220;
+    --background-end-rgb: 255, 255, 255;
+    color: rgb(var(--foreground-rgb));
+    background-color: rgb(255, 255, 255);
+  }
+  /* Ellipse form, gris so it's cool form the two side */
+  html {
+    background-image: radial-gradient(
+      ellipse 80% 80% at 50% -20%,
+      rgba(120, 119, 198, 0.3),
+      rgba(255, 255, 255, 0)
+    );
+
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-family: "Alkatra", cursive;
+  }
+}
+
+/* Styles for active links */
+.active-link {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  text-decoration-thickness: 2px;
+  color: rgb(var(--foreground-rgb)); /* Utilize the foreground color variable */
+}
+
+/* Styles for SVG icons in the CV */
+.color-svg path {
+  fill: rgb(
+    var(--foreground-rgb)
+  ); /* Utilize the default foreground color variable */
+  transition: fill 0.3s ease; /* Smooth transition over 0.3 seconds */
+}
+
+/* Styles for SVG icons in the CV on hover */
+.color-svg:hover path {
+  fill: #f59e0b; /* Color on hover */
+}
+
+.cv-svg path {
+  fill: rgb(var(--foreground-rgb));
+  transition: fill 0.3s ease;
+}
+
+.cv-svg:hover path {
+  fill: #c50000;
+}
