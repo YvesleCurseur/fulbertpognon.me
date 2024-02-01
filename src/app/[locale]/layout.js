@@ -13,8 +13,6 @@ import { locales } from "@/navigation";
 import { Providers } from "@/providers";
 import ThemeSwitch from "@/components/ThemeSwitch";
 
-const inter = Inter({ subsets: ["latin"] });
-
 export const metadata = {
   title: "Fulbert Pognon",
   description: "Fulbert Pognon's Portfolio",
@@ -28,12 +26,12 @@ export default function RootLayout({ children, params: { locale } }) {
   const messages = useMessages();
 
   return (
-    <html class="dark" lang={locale}>
+    <html className="dark" lang={locale}>
       <NextIntlClientProvider locale={locale} messages={messages}>
-        <body className={inter.className}>
+        <body>
           <Providers>
             <div className="flex flex-col h-screen">
-              <div className="sticky top-0">
+              <div className="top-0">
                 <div className="flex items-center justify-center mt-4 space-x-4">
                   <Langages locale={locale} />
                   <ThemeSwitch />
