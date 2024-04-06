@@ -41,11 +41,12 @@ export default function RootLayout({ children, params: { locale } }) {
               <div className="flex-1 flex justify-center items-center">
                 {children}
               </div>
-              <div className="sticky bottom-0">
-                <div className="flex items-center justify-center mt-4 space-x-4">
-                  <Footer />
-                </div>
-              </div>
+
+                {/* <div className="sticky bottom-0"> */}
+                  <div className="flex items-center justify-center mt-4 space-x-4">
+                    <Footer />
+                  </div>
+                {/* </div> */}
               <Copyright />
             </div>
           </Providers>

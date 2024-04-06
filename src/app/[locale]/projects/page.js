@@ -10,36 +10,6 @@ const Projects = () => {
         <Image src="/maibususu.jpg" alt="MiabuSusu" width={500} height={500} />
         <p className="ml-4 mb-4 max-sm:text-lg max-sm:ml-0">It's a project</p>
       </div>
-      <h2 className="mb-4">MiabuSusu</h2>
-      <div className="flex max-sm:block">
-        <Image src="/maibususu.jpg" alt="MiabuSusu" width={500} height={500} />
-        <p className="ml-4 mb-4 max-sm:text-lg max-sm:ml-0">It's a project</p>
-      </div>
-      <h2 className="mb-4">MiabuSusu</h2>
-      <div className="flex max-sm:block">
-        <Image src="/maibususu.jpg" alt="MiabuSusu" width={500} height={500} />
-        <p className="ml-4 mb-4 max-sm:text-lg max-sm:ml-0">It's a project</p>
-      </div>
-      <h2 className="mb-4">MiabuSusu</h2>
-      <div className="flex max-sm:block">
-        <Image src="/maibususu.jpg" alt="MiabuSusu" width={500} height={500} />
-        <p className="ml-4 mb-4 max-sm:text-lg max-sm:ml-0">It's a project</p>
-      </div>
-      <h2 className="mb-4">MiabuSusu</h2>
-      <div className="flex max-sm:block">
-        <Image src="/maibususu.jpg" alt="MiabuSusu" width={500} height={500} />
-        <p className="ml-4 mb-4 max-sm:text-lg max-sm:ml-0">It's a project</p>
-      </div>
-      <h2 className="mb-4">MiabuSusu</h2>
-      <div className="flex max-sm:block">
-        <Image src="/maibususu.jpg" alt="MiabuSusu" width={500} height={500} />
-        <p className="ml-4 mb-4 max-sm:text-lg max-sm:ml-0">It's a project</p>
-      </div>
-      <h2 className="mb-4">MiabuSusu</h2>
-      <div className="flex max-sm:block">
-        <Image src="/maibususu.jpg" alt="MiabuSusu" width={500} height={500} />
-        <p className="ml-4 mb-4 max-sm:text-lg max-sm:ml-0">It's a project</p>
-      </div>
       <div className="mt-4 text-right">
         <Link href="/" className="cursor-pointer relative group">
           <span className="absolute h-0 -left-6 transform -translate-y-1/2 z-10 transition-transform ease-in group-hover:-translate-x-1/2">
