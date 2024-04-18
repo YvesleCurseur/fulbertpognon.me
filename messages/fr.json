@@ -1,6 +1,10 @@
 {
   "Home": {
-    "profile": "Développeur Web Full-Stack"
+    "profile": "Développeur Web Full-Stack",
+    "me": "Moi",
+    "stack": "Technologies",
+    "projects": "Projets",
+    "blog": "Blog"
   }, 
   "About": {
       

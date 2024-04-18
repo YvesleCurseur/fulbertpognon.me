@@ -23,6 +23,8 @@ const Identity = ({profile}) => {
           {"<--"} {profile}
         </span>
       </h1>
+      {/* Mini text saying still building */}
+      <p className="text-xs text-gray-500 text-center">Work In Progress</p>
     </div>
   );
 };
