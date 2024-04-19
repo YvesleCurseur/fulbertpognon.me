@@ -11,8 +11,8 @@ const Stack = () => {
         <div className="flex space-x-4 mb-5">
           <div>
             <svg
-              width="100px"
-              height="100px"
+              width="50px"
+              height="50px"
               viewBox="0 0 32 32"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
@@ -228,6 +228,15 @@ const Stack = () => {
         </div>
         <p className="text-center">PostgreSQL</p>
       </div>
+
+
+      - Maîtrise de l'automatisation des tâches à l'aide de Python et de bibliothèques.
+- Expérience dans l'intégration de l'IA dans les systèmes existants pour améliorer l'efficacité et la précision.
+
+- Proficient in task automation using Python and libraries.
+- Experienced in integrating AI into existing systems to improve efficiency and accuracy.
+
+
 
       <div className="mt-4 text-right">
         <Link href="/" className="cursor-pointer relative group">

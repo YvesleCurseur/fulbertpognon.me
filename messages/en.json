@@ -1,22 +1,20 @@
 {
-    "Home": {
-      "profile": "Web Full Stack Developer",
-      "me": "Me",
-      "stack": "Stack",
-      "projects": "Projects",
-      "blog": "Blog"
-    }, 
-    "About": {
-        
-    },
-    "Projects": {
-        
-    },
-    "Stack": {
-        
-    },
-    "Blog": {
-  
-    }
-  }
-  
+  "Home": {
+    "profile": "Web Full Stack Developer",
+    "me": "Me",
+    "stack": "Stack",
+    "projects": "Projects",
+    "blog": "Blog"
+  },
+  "About": {
+    "work": "As a Full Stack Developer specializing in web technologies, I combine backend logic with frontend user experience to create innovative solutions.",
+    "mission": "I often share my creation process on social media, providing tutorials and tips to help other developers improve their skills. 😊",
+    "social": "I am also passionate about continuous learning and am always on the lookout for the latest trends and technologies in web development."
+  },
+  "Projects": {
+    "miabususu": "Facilitate access to past exam papers, focusing specifically on the second part of the baccalaureate. It aims to provide a user-friendly platform where students, teachers, and other stakeholders can easily access previous exam papers to prepare effectively.",
+    "newsai": "Generate concise summaries of news videos. By leveraging the YouTube API, the application can access a wide range of news content. The AI component of the application would then process this content, identifying key points and themes, and generating a written summary."
+  },
+  "Stack": {},
+  "Blog": {}
+}
