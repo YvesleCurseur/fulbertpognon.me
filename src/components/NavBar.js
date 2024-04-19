@@ -7,7 +7,7 @@ import { useTranslations } from "next-intl";
 
 const NavBar = () => {
   const { resolvedTheme } = useTheme();
-  const T = useTranslations("Home");
+  const t = useTranslations("Home");
 
   return (
     <div class="text-center">
@@ -18,7 +18,7 @@ const NavBar = () => {
             resolvedTheme === "dark" ? "after:bg-white" : "after:bg-black"
           }`}
         >
-          {T("me")}.
+          {t("me")}.
         </Link>
         <Link
           href="/projects"
@@ -26,7 +26,7 @@ const NavBar = () => {
             resolvedTheme === "dark" ? "after:bg-white" : "after:bg-black"
           }`}
         >
-          {T("projects")}
+          {t("projects")}
         </Link>
         <Link
           href="/stack"
@@ -34,7 +34,7 @@ const NavBar = () => {
             resolvedTheme === "dark" ? "after:bg-white" : "after:bg-black"
           }`}
         >
-          {T("stack")}
+          {t("stack")}
         </Link>
         {/* <Link href="/blog" className={`relative after:absolute after:h-0.5 after:w-0 after:top-5 after:left-0 hover:after:w-full after:transition-all after:duration-300 ${
             resolvedTheme === "dark" ? "after:bg-white" : "after:bg-black"

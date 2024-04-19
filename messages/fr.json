@@ -5,17 +5,16 @@
     "stack": "Technologies",
     "projects": "Projets",
     "blog": "Blog"
-  }, 
+  },
   "About": {
-      
+    "work": "En tant que Développeur Full Stack spécialisé dans les technologies web, je combine la logique backend avec l'expérience utilisateur frontend pour créer des solutions innovantes.",
+    "mission": "Je partage souvent mon processus de création sur les réseaux sociaux, en fournissant des didacticiels et des astuces pour aider les autres développeurs à améliorer leurs compétences. 😊",
+    "social": "Je suis également passionné par l'apprentissage continu et je suis toujours à l'affût des dernières tendances et technologies dans le développement web."
   },
   "Projects": {
-      
+    "miabususu": "Faciliter l'accès aux anciens sujets d'examen, en se concentrant spécifiquement sur les épreuves de la deuxième partie du baccalauréat. Elle vise à fournir une plateforme conviviale où les étudiants, les enseignants et les autres parties prenantes peuvent accéder facilement aux sujets d'examen antérieurs pour se préparer de manière efficace.",
+    "newsai": "Générer des résumés concis de vidéos d'actualités. En exploitant l'API YouTube, l'application peut accéder à une large gamme de contenus d'actualités d’une chaîne. Le composant IA de l'application traite ensuite ce contenu, en identifiant les points clés et les thèmes, et en générant un résumé écrit."
   },
-  "Stack": {
-      
-  },
-  "Blog": {
-
-  }
+  "Stack": {},
+  "Blog": {}
 }
