@@ -49,6 +49,11 @@ const NavBar = () => {
         >
           C.V.
         </Link>
+        {/* <Link href="/chat" className={`relative after:absolute after:h-0.5 after:w-0 after:top-5 after:left-0 hover:after:w-full after:transition-all after:duration-300 ${
+            resolvedTheme === "dark" ? "after:bg-white" : "after:bg-black"
+          }`}>
+          Chat
+        </Link> */}
       </nav>
     </div>
   );
