@@ -14,6 +14,10 @@ import { Providers } from "@/providers";
 import ThemeSwitch from "@/components/ThemeSwitch";
 
 import Script from 'next/script'
+import * as Swetrix from 'swetrix'
+
+Swetrix.init('vLroEsXscnz0')
+Swetrix.trackViews()
 
 export const metadata = {
   title: "Fulbert Pognon",
@@ -25,6 +29,7 @@ export default function RootLayout({ children, params: { locale } }) {
     notFound();
   }
 
+  
   const messages = useMessages();
 
   return (
@@ -42,6 +47,8 @@ export default function RootLayout({ children, params: { locale } }) {
               gtag('config', 'G-2ZCK2ZQGMP');
           `}
         </Script>
+
+        
       </head>
       <NextIntlClientProvider locale={locale} messages={messages}>
         <body>
