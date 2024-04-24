@@ -13,6 +13,8 @@ import { locales } from "@/navigation";
 import { Providers } from "@/providers";
 import ThemeSwitch from "@/components/ThemeSwitch";
 
+import Script from 'next/script'
+
 export const metadata = {
   title: "Fulbert Pognon",
   description: "Fulbert Pognon's Portfolio",
@@ -27,6 +29,20 @@ export default function RootLayout({ children, params: { locale } }) {
 
   return (
     <html className="dark" lang={locale}>
+      <head>
+        <Script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-2ZCK2ZQGMP"
+        />
+        <Script id="google-analytics">
+          {`
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-2ZCK2ZQGMP');
+          `}
+        </Script>
+      </head>
       <NextIntlClientProvider locale={locale} messages={messages}>
         <body>
           <Providers>
