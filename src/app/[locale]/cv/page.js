@@ -6,8 +6,8 @@ const Cv = ({ locale }) => {
 
   const fileName =
     locale === "en"
-      ? "https://drive.google.com/file/d/18VQcXQG7MEE79sGEKd4kn7hTefg_BBON/view?usp=sharing"
-      : "https://drive.google.com/file/d/14jck4_PjLIiSPUeRWUC6miaB-QJ3e-qT/view?usp=sharing";
+      ? "https://drive.google.com/file/d/1aHQGr6gSlyFH3ta9FjpUtQPvrah0Izs2/view"
+      : "https://drive.google.com/file/d/1M3074A1-_vREFuR1m2SvwynRbKu_2OXH/view";
 
   return (
     <div className="w-1/2 max-sm:w-2/3">
