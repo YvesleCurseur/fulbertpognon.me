@@ -35,6 +35,7 @@ export default function RootLayout({ children, params: { locale } }) {
   return (
     <html className="dark" lang={locale}>
       <head>
+        /* 
         <Script
           async
           src="https://www.googletagmanager.com/gtag/js?id=G-2ZCK2ZQGMP"
@@ -46,7 +47,8 @@ export default function RootLayout({ children, params: { locale } }) {
               gtag('js', new Date());
               gtag('config', 'G-2ZCK2ZQGMP');
           `}
-        </Script>
+        </Script> 
+        */
 
         
       </head>
